@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <script  type="module" src="main.mjs" defer></script>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <div>
+
+        <div id="chat">
+            <h3 id="trenutnaSoba">Trenutna soba:</h3>
+            <input type="text" id="poruka" placeholder="Poruka">
+            <button id="posalji">Pošalji</button>
+            <div id="svePoruke" value="Dohvati sve poruke">
+                <button id="dohvatiPoruke" value="Dohvati poruke "></button>
+            </div>
+        </div>
+
+        <div id="kontrole">
+            <form action="">
+                Korisničko ime:
+                <input type="text" id="nick" value="Darija" placeholder="Korisničko ime" required>
+                Lozinka:
+                <input type="text" id="pass" value="Kmetovic" placeholder="Lozinka" required>
+                <button id="prijava">Prijavi se</button>
+                <button id="odjava">Odjavi se</button>
+            </form>
+        </div>
+
+        <div id="listaOnlineKorisnika">
+            <ul>Lista online korisnika</ul>
+        </div>
+
+        <div id="listaLjudiUSobi">
+            <ul>Lista ljudi u sobu</ul>
+        </div>
+
+        <div id="aktivneSobe">
+            <ul>Lista aktivnih soba</ul>
+        </div>
+
+        <div id="stvoriSobu">
+            Stvori novu sobu
+            <input type="text" id="novaSoba" placeholder="Ime nove sobe">
+            <button id="stvoriNovuSobu">Stvori sobu</button>
+        </div>
+
+    </div>
+</body>
+</html>

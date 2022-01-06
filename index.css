@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+div{
+    border: black solid 3px;
+    margin: 5px;
+    display: flex;
+}
+
+#chat{
+    height: 800px;
+    display: flex;
+    width: 65%;
+}
+
+#poruka{
+    width: 80%;
+    height: 5%;
+    position: relative;
+    margin: auto 5px 5px 5px;
+}
+
+#posalji{
+    height: 5%;
+    width: 18%;
+    margin-top: auto;
+    margin: auto 5px 5px 5px;
+    background-color: darkolivegreen;
+    }
+#dohvatiPoruke{
+    height: 35px;
+    width: 100px;
+    margin-top: 200px;
+    margin: 5px 5px 5px 5px;
+    background-color: darkolivegreen;
+}
+#kontrole{
+    width: 34%;
+    margin: 5px auto 5px 5px;
+    height: 70px;
+    padding: 2px;
+}
+
+#listaOnlineKorisnika{
+    width: 34%;
+    height: 200px;
+    position: absolute;
+    top: 85px;
+    left: 65.1%;
+}
+
+#listaLjudiUSobi{
+    width: 34%;
+    height: 200px;
+    position: absolute;
+    left: 65.1%;
+    top: 300px;
+}
+
+#aktivneSobe{
+    width: 34%;
+    height: 200px;
+    position: absolute;
+    left: 65.1%;
+    top: 520px;
+
+}
+
+#stvoriSobu{
+    width: 34%;
+    height: 70px;
+    position: absolute;
+    left: 65.1%;
+    top: 725px;
+}
+
+#novaSoba{
+    height: 50%;
+    width: 200px;
+
+}
+
+#stvoriNovuSobu{
+    background-color: darkolivegreen;
+    height: 50%;
+    width: 100px;
+
+}
